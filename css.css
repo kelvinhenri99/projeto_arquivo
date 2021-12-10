@@ -1,0 +1,274 @@
+.pagina_geral {
+	width:1320px;
+	height:auto;
+	border:2px solid black;
+	margin:auto;
+	background-color:white;
+	border-radius:50px;
+}
+
+.estilo_1 {
+	color:blue;
+	border-bottom:2px solid black;
+	width:560px;
+	border-radius:30px;
+	font-family:cambria;
+	font-size:30px;
+	margin:auto;
+	margin-top:20px;
+}
+
+.estilo_2 {
+	color:blue;
+	font-family:cambria;
+	border-bottom:2px solid blue;
+	border-right:2px solid blue;
+	width:200px;
+	padding:2px;
+}
+
+.quadrado1 {
+	border-radius:80px;
+	width:350px;
+	margin:auto;
+	padding:10px;
+	color:blue;
+	margin-top:20px;
+	background-color:#ddd;
+}
+
+.quadrado2 {
+	width:1265px;
+	height:auto;
+	background-color:white;
+	margin:auto;
+	padding:10px;
+	border-radius:50px;
+	border:2px solid black;
+	margin-top:30px;
+}
+
+.quadrado3 {
+	border-radius:50px;
+	background-color:white;
+	margin-top:10px;
+	width:1100px;
+	margin:auto;
+	padding:20px;
+	height:100px;
+}
+
+.estilo_3 {
+	margin-left:210px;
+	position:absolute;
+	margin-top:-25px;
+	height:22px;
+	border:1px solid blue;
+	width:300px;
+	background-color:black;
+	color:white;
+}
+
+.estilo_4 {
+	margin-left:210px;
+	position:absolute;
+	margin-top:-25px;
+	height:18px;
+	border:1px solid blue;
+	width:294px;
+	background-color:black;
+	color:white;
+}
+
+.btn_salvar {
+	position:absolute;
+	border-radius:5px;
+	border:1px solid blue;
+	margin-left:300px;
+	margin-top:-10px;
+	padding:3px;
+	color:blue;
+}
+
+.btn_salvar:hover {
+	-webkit-box-shadow:1px 1px 8px blue,
+						-1px -1px 8px blue;
+}
+
+.btn_limpar {
+	position:absolute;
+	border-radius:5px;
+	border:1px solid blue;
+	margin-left:385px;
+	margin-top:-10px;
+	padding:3px;
+	color:blue;
+}
+
+.btn_limpar:hover {
+	-webkit-box-shadow:1px 1px 8px blue,
+						-1px -1px 8px blue;
+}
+
+.apresentacao {
+	position:absolute;
+	border-radius:50px;
+	background-position: 50% 50%;
+	width:600px;
+	height:115px;
+	margin-left:510px;
+	margin-top:6px;
+	background-image: url("../Imagens/bykelvin.png");
+	background-size:60% 30%;
+	background-repeat:no-repeat;
+}
+
+.titulo {
+	color:blue;
+	font-family:arial black;
+	background-color:#ddd;
+	width:320px;
+	margin:auto;
+	margin-top:50px;
+	padding:5px;
+	border-radius:30px;
+}
+
+.titulo1 {
+	color:blue;
+}
+
+.tabela1 {
+	border:2px solid black;
+	padding:5px;
+	width:100%;
+	border-radius:20px;
+	background-color:white;
+	margin-top:15px;
+}
+
+.tabela2 {
+	border:2px solid black;
+	border-radius:50px;
+	background-color:black;
+	padding:10px;
+	color:white;
+	font-family:cambria;
+	font-size:20px;
+}
+
+.tabela3 {
+	border:2px solid black;
+	color:blue;
+	border-radius:20px;
+	padding:4px;
+	font-family:cambria;
+}
+
+.tabela4 {
+	color:blue;
+	border-radius:20px;
+	padding:4px;
+	font-family:cambria;
+	width:200px;
+}
+
+.caixa {
+	border:2px solid black;
+	width:170px;
+	height:120px;
+	background-color:#d6972b;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.caixa_dentro1 {
+	width:120px;
+	height:30px;
+	border:1px solid black;
+	margin-left:10px;
+	border-radius:5px;
+	margin-top:80px;
+	font-family:cambria;
+	font-size:15px;
+	color:white;
+}
+
+.caixa_dentro2 {
+	color:white;
+	font-size:15px;
+	width:10px;
+	padding:5px;
+	margin-top:62px;
+	margin-left:142px;
+}
+
+.caixa_dentro3 {
+	border:2px solid black;
+	margin-top:-114px;
+	margin-left:12px;
+	height:20px;
+	width:160px;
+	background-color:#d6972b;
+	color:white;
+}
+
+.caixa_dentro4 {
+	width:140px;
+	height:40px;
+	margin-top:-80px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:cambria;
+	font-size:12px;
+	color:white;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(0,0,0,0.7);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal > div {
+	width: 600px;
+	height:600px;
+	position: relative;
+	margin:2% auto;
+  padding: 15px 20px;
+	background-color:white;
+	border-radius:30px;
+	-webkit-box-shadow:1px 1px 10px #720980,
+						-1px 1px 10px #720980,
+						1px -1px 10px #720980,
+					   -1px -1px 10px #720980;	
+}
+
+.fechar {
+  position: absolute;
+  width: 30px;
+  right: 0px;
+  top: 0px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 5px;
+  background: #ff4545;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #8d0000;
+}
